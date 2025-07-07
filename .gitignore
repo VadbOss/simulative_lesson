@@ -1,0 +1,19 @@
+# Игнорировать папку виртуального окружения
+venv/
+.venv/
+
+# Игнорировать файлы .env с секретами
+.env
+*.key
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Логи и системные файлы
+*.log
+*.tmp
+
+# IDE (VS Code, PyCharm)
+.vscode/
+.idea/
